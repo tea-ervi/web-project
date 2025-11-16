@@ -1,19 +1,10 @@
 <template>
-    <NuxtLayout>
-        <NuxtPage/>
-    </NuxtLayout>
-</template>
-
-
-<!-- <template>
-    <NuxtPage />    
     <div style="height:100vh; width:100vw">
         <LMap
          :zoom="11" 
          :center="petropavl" 
          :use-global-leaflet="false"
-         style="height: 100%; width: 100%;"
-         >
+         style="height: 100%; width: 100%">
             <LTileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution="&copy; OpenStreetMap contributors"
@@ -37,10 +28,9 @@
     </LPopup>    
     </LMarker>
     </LMap>
-    
+
     </div>
 </template>
-
 
 
 <script setup lang="ts">
@@ -80,4 +70,5 @@ const lakes = ref<Lake[]>([
     {name: 'Safonkovo lake', lat: 55.026519, lng: 69.241075},
     {name: 'Chyornaya lake', lat: 54.812247, lng: 69.057172},
 ])
-</script> -->
+
+</script>
